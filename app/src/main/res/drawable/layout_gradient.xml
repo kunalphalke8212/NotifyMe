@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:button3d="http://schemas.android.com/apk/res-auto"
+    >
+    <gradient
+        android:startColor="@color/gradieant1"
+    android:endColor="@color/gradieant2"
+    android:angle="124"
+    />
+
+</shape>

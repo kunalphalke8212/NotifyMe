@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/baground"
+
+
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <View android:background="@drawable/top_half_circle"
+            android:layout_height="500dp"
+            android:layout_width="match_parent"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="80dp"
+
+            android:layout_marginRight="30dp"
+
+            android:padding="30dp">
+
+
+            <ImageView
+                android:id="@+id/imageview_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="180dp"
+                android:src="@drawable/logo_png">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textview_main_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageview_logo"
+                android:layout_marginTop="30dp"
+                android:text="Wellcome to Noice"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageview_logo"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="284dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/buttons"
+                android:text="Login"
+                android:textColor="@color/black">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button_register"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageview_logo"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="199dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/buttons"
+                android:text="SingUp"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</FrameLayout >

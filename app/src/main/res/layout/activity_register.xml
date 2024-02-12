@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@color/gray"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        android:background="@drawable/layout_gradient"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_register_head"
+            android:layout_marginTop="30dp"
+            android:text="Please Enter Your Detils To Register on App"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_register_fullname"
+            android:layout_below="@id/textview_register_head"
+            android:text="Full Name"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:layout_marginTop="50dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editview_register_fullname"
+            android:layout_below="@id/textview_register_fullname"
+            android:hint="Enter your Name"
+            android:inputType="textPersonName"
+            android:textSize="16sp"
+            android:padding="6sp"
+            android:drawable="@drawable/border"
+            />
+
+    </RelativeLayout>
+
+
+</ScrollView>
